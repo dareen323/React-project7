@@ -2,9 +2,27 @@
 
 .header {
 
-    font-family: 'Playfair Display', serif;  
+    font-family: 'Playfair Display', serif; 
+
 }
 .navbar-light .navbar-nav .nav-link{
-    color: #000000 !important;
+    color: #ffffff !important;
 
+}
+.logo{
+height: 50px !important;
+width: 50px !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(37, 135, 24) !important;
+}
+
+@media screen and (max-width: 768px) {
+    .bo{
+        padding: 10px !important;
+    }
+}
+.navbar-toggler-icon{
+    background-color: rgb(182, 207, 199) !important;
+    border-radius: 5px !important;
 }

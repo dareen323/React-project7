@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FiXCircle, FiStar } from 'react-icons/fi';
-
+import Footer from '../../components/footer/Footer';
 import './styles.css';
 // import Header from '../../components/header/Header';
 
@@ -48,7 +48,7 @@ export default function Favorites() {
                                             </div>
                                             <div className="button-container">
                                                 <button className="button" onClick={() => handleDeleteFavorite(arrayBook)}>
-                                                    <FiXCircle size={20} color="#fff" />
+                                                    {/* <FiXCircle size={20} color="#fff" /> */}
                                                     Remove
                                                 </button>
                                             </div> 
@@ -59,7 +59,7 @@ export default function Favorites() {
                         </div>
                     </> 
                 ) : (                        
-                    <div className='d-flex justify-content-center'>
+                    <div className='d-flex justify-content-center' style={{marginBottom:"250px"}}>
                         <h2 className="no-book m-5 text-white w-25 p-4">
                             No Books yet ...
                         </h2>
@@ -67,6 +67,7 @@ export default function Favorites() {
                     )
                 }
             </div>
+            <Footer />
         </div>
     )
 }

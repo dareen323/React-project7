@@ -15,7 +15,7 @@
     text-transform: uppercase;
     font-family: Anton;
     color: #fff;
-    background-color: #956825;
+    background-color: #9d8b71;
     justify-content: center;
     margin: auto;
     font-size: 20px;
@@ -47,7 +47,7 @@
 }
 
 .favorite-list .button-container button{
-    background: #c21e1e;      
+    background: #b53636;      
     color: #fff;  
 }
 

@@ -4,7 +4,7 @@ import './styles.css'
 export default function Footer() {
   return (
     <MDBFooter bgColor='' className='text-center text-lg-start text-white fw-bolder footer' >
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+      <section className='d-flex-column justify-content-center justify-content-lg-between p-4'>
         <div className='me-5 d-none d-lg-block text-white'>
           <span>Get connected with us on social networks:</span>
         </div>

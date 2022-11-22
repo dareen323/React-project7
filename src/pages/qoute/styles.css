@@ -1,0 +1,54 @@
+/*Quotes*/
+
+.box-centerside {
+    width: 400px;
+    margin: 0 auto;
+    padding: 4px 15px;
+    font-size: 22px;
+    background:#ffffff;
+    text-align: center;
+    box-shadow: 0 6px 6px;
+    }
+  
+    .text p {
+      margin-block-start: 0.5em;
+      margin-block-end: 0.5em;
+      color:#000;
+      text-align: center;
+      font-weight: 800;
+    }
+    .box1{
+      width: 400px;
+      background-color: #ffffff00;
+      height: fit-content;
+      border-radius: 10px;
+    }
+    .author h5 {
+      font-family: cursive;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+  
+    .button-container {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+ 
+  
+  
+    @media only screen and (max-width: 450px) {
+      .box-centerside {
+        width: 270px;
+      }
+      .text p{
+        font-size:15px;
+      }
+      .author h5{
+        font-size:15px;
+      }
+    }
+    
